@@ -79,7 +79,8 @@
     "photos_root": "course_photos",
     "progress": "progress",
     "flyovers": "~/Documents/HansenDam/flyovers",
-    "backups": "~/Documents/HansenDam/Backups"
+    "backups": "~/Documents/HansenDam/Backups",
+    "photo_store": "r2://hansen-damn"
   },
   "gps": {
     "magnetic_declination_deg": 12.0,

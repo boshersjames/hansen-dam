@@ -105,5 +105,14 @@
     "backdrop/: 36 km far terrain (USGS 1/3 arc-second) with placement in backdrop/backdrop.json. surfaces/: 0.5 m bare-earth surface for greens, fairways and tees.",
     "offsite_trees.csv: 1,958 trees outside the OB line for the neighbourhood backdrop; trees.csv has species and confidence columns.",
     "map.osm is in plain git here (the moorpark repo kept it out because of LFS)."
+  ],
+  "drone_sources": [
+    {
+      "label": "full_course_old",
+      "url": "https://www.youtube.com/watch?v=2QymXWk8gdQ",
+      "holes": "10-18,1-9",
+      "hole_offset": 9,
+      "note": "old flyover; course is in much better shape now. The video's hole 1 is today's hole 10, video 2 = 11, ... video 9 = 18, video 10 = 1, etc. (James, 2026-11-02). Frames: layout/position only, low confidence, never colour or condition."
+    }
   ]
 }

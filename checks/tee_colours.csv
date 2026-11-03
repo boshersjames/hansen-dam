@@ -1,0 +1,73 @@
+hole,colour,card_yards,gkd_yards,diff,x,z,on_mapped_box
+1,Black,385,385,0,1668.249,1666.111,yes
+1,White,351,351,0,1638.637,1675.581,no (placed on hole line from the card)
+1,Blue,372,372,0,1657.121,1669.662,yes
+1,Yellow,328,328,0,1622.122,1694.409,yes
+2,Black,505,505,0,1314.615,1742.443,yes
+2,White,466,466,0,1293.444,1771.145,yes
+2,Blue,474,474,0,1297.88,1765.329,yes
+2,Yellow,436,459,23,1289.719,1776.029,yes
+3,Black,404,404,0,995.509,2075.497,no (placed on hole line from the card)
+3,White,370,370,0,979.254,2101.998,yes
+3,Blue,383,383,0,985.438,2091.846,yes
+3,Yellow,343,344,1,970.038,2124.423,yes
+4,Black,192,192,0,742.615,2396.513,yes
+4,White,148,148,0,755.518,2434.622,yes
+4,Blue,172,172,0,749.661,2413.446,yes
+4,Yellow,127,127,0,761.582,2452.842,no (placed on hole line from the card)
+5,Black,426,426,0,840.124,2552.651,yes
+5,White,390,390,0,853.477,2522.546,yes
+5,Blue,406,406,0,847.984,2536.107,yes
+5,Yellow,338,338,0,871.329,2478.476,no (placed on hole line from the card)
+6,Black,567,567,0,1030.0,2196.873,yes
+6,White,496,496,0,1084.104,2160.958,no (placed on hole line from the card)
+6,Blue,538,538,0,1051.555,2181.341,yes
+6,Yellow,449,449,0,1120.528,2138.148,no (placed on hole line from the card)
+7,Black,193,190,-3,1486.702,2035.711,yes
+7,White,157,157,0,1511.44,2018.771,yes
+7,Blue,185,185,0,1489.793,2032.994,yes
+7,Yellow,106,106,0,1534.707,1972.758,yes
+8,Black,390,388,-2,1617.311,1863.489,no (placed on hole line from the card)
+8,White,355,362,7,1594.564,1869.875,yes
+8,Blue,368,368,0,1599.524,1868.482,yes
+8,Yellow,310,310,0,1548.463,1882.818,no (placed on hole line from the card)
+9,Black,450,450,0,1264.379,1899.011,yes
+9,White,387,387,0,1317.35,1875.962,no (placed on hole line from the card)
+9,Blue,420,421,1,1288.327,1885.764,yes
+9,Yellow,354,354,0,1345.939,1866.307,no (placed on hole line from the card)
+10,Black,307,307,0,1756.407,1727.443,yes
+10,White,270,270,0,1798.475,1726.704,yes
+10,Blue,293,293,0,1782.628,1712.839,yes
+10,Yellow,258,258,0,1804.288,1737.122,yes
+11,Black,340,340,0,2085.378,1887.781,no (placed on hole line from the card)
+11,White,297,297,0,2063.964,1854.789,yes
+11,Blue,310,308,-2,2069.986,1863.106,yes
+11,Yellow,280,280,0,2057.986,1840.003,yes
+12,Black,549,547,-2,2174.38,1575.231,no (placed on hole line from the card)
+12,White,482,482,0,2234.739,1573.392,yes
+12,Blue,520,520,0,2198.978,1578.203,no (placed on hole line from the card)
+12,Yellow,453,453,0,2259.899,1584.747,no (placed on hole line from the card)
+13,Black,430,430,0,2752.5,1612.515,yes
+13,White,379,379,0,2799.062,1609.917,no (placed on hole line from the card)
+13,Blue,409,409,0,2771.673,1611.445,yes
+13,Yellow,357,357,0,2819.147,1608.796,no (placed on hole line from the card)
+14,Black,518,518,0,3240.606,1589.942,yes
+14,White,465,465,0,3190.93,1585.69,yes
+14,Blue,501,501,0,3222.347,1595.596,yes
+14,Yellow,428,428,0,3160.684,1569.659,yes
+15,Black,167,163,-4,2761.928,1484.966,no (placed on hole line from the card)
+15,White,140,140,0,2771.728,1465.847,yes
+15,Blue,151,151,0,2767.14,1474.798,yes
+15,Yellow,107,107,0,2785.493,1438.994,no (placed on hole line from the card)
+16,Black,362,358,-4,2772.678,1327.088,no (placed on hole line from the card)
+16,White,318,326,8,2759.644,1352.578,no (placed on hole line from the card)
+16,Blue,331,331,0,2761.599,1348.755,yes
+16,Yellow,292,292,0,2745.364,1380.507,no (placed on hole line from the card)
+17,Black,179,179,0,2514.173,1540.704,yes
+17,White,162,162,0,2491.264,1534.762,yes
+17,Blue,169,169,0,2493.271,1540.93,yes
+17,Yellow,142,142,0,2489.078,1516.599,no (placed on hole line from the card)
+18,Black,437,437,0,2447.492,1271.997,yes
+18,White,368,367,-1,2413.39,1326.294,yes
+18,Blue,417,417,0,2436.093,1286.297,yes
+18,Yellow,328,328,0,2389.898,1353.683,no (placed on hole line from the card)

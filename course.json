@@ -1,0 +1,107 @@
+{
+  "name": "hansen_dam",
+  "center_lat": 34.25861883038406,
+  "center_lon": -118.39088003809353,
+  "size": 3400.0,
+  "epsg": 6340,
+  "arcgis_wkid": 26911,
+  "utm_zone": 11,
+  "sw_e": 370241.16,
+  "sw_n": 3790006.81,
+  "y_offset": 207.0,
+  "lidar_survey": "CA_LosAngeles_1_B23",
+  "terrain_height": 191.0,
+  "club": "Hansen Dam Golf Course",
+  "gkd": {
+    "Location": "Pacoima, Los Angeles, California, USA",
+    "CityTown": "Los Angeles",
+    "StateCountyProvince": "California",
+    "Country": "USA",
+    "Designer": "jboshers",
+    "altitudeV2": 993.0,
+    "altitude": 0.0,
+    "unitOfMeasure": 2,
+    "CourseInfo": "Hansen Dam Golf Course, designed by Ray Goates and opened in 1964, is a par-72 Los Angeles municipal course in the northeast San Fernando Valley. It is laid out in front of the Hansen Dam, whose long embankment forms its backdrop, and plays 6,801 yards from the Black tees.",
+    "KeywordParkland": true,
+    "KeywordMountain": false,
+    "KeywordsString": "Parkland",
+    "DefaultStimp": 2,
+    "MaxStimp": 5,
+    "GreenFirmnessDefault": 0,
+    "FairwayFirmnessDefault": 0
+  },
+  "display_name": "Hansen Dam Golf Course",
+  "location": "Pacoima, Los Angeles, California, USA",
+  "designer_field": "jboshers",
+  "frame": {
+    "square_m": 3400.0,
+    "heightmap_px": 2049,
+    "crs": "EPSG:6340",
+    "sw_corner": [
+      370241.16,
+      3790006.81
+    ],
+    "centre_latlon": [
+      34.25861883038406,
+      -118.39088003809353
+    ],
+    "base_elevation_m": 207.0,
+    "relief_m": 191.0,
+    "axes": "x = m east of SW corner, z = m north, y = elevation - 207"
+  },
+  "lidar": {
+    "survey": "CA_LosAngeles_1_B23",
+    "quality_level": 1,
+    "pts_per_m2": 21.7
+  },
+  "satellite": {
+    "source": "NAIP",
+    "px": 8192,
+    "m_per_px": 0.42
+  },
+  "holes": 18,
+  "visit": "none",
+  "control_hole": null,
+  "paths": {
+    "toolkit": "../course-build",
+    "unity_project": "C:/GSP/HansenDam_Project",
+    "unity_scene": "HansenDam.unity",
+    "unity_editor_dir": "C:/GSP/HansenDam_Project/Assets/Editor",
+    "automation_output": "C:/GSP/HansenDam_Project/AutomationOutput",
+    "gspro_courses": "C:/GSProV1/Core/GSP/Courses",
+    "course_repo": ".",
+    "heightmap": "heightmap_2049.raw",
+    "gkd": "HansenDam.GKD",
+    "course_svg": "course.svg",
+    "satellite": "satellite.jpg",
+    "trees_csv": "trees.csv",
+    "signs": "progress/hole_signs.json",
+    "photos_root": "course_photos",
+    "progress": "progress",
+    "flyovers": "~/Documents/HansenDam/flyovers",
+    "backups": "~/Documents/HansenDam/Backups"
+  },
+  "gps": {
+    "magnetic_declination_deg": 12.0,
+    "note": "EXIF compass is magnetic; +12 deg to true in Los Angeles County (2026)"
+  },
+  "tee_slot_map": {
+    "Black": "Black",
+    "Blue": "Blue",
+    "White": "White",
+    "Yellow": "Yellow"
+  },
+  "shared_tee_box_exceptions": [],
+  "rule_overrides": {},
+  "notes": [
+    "course.json carries both coursekit's keys (size, sw_e, sw_n, y_offset, epsg, terrain_height, lidar_survey, gkd) and the toolkit's (frame, paths, lidar, holes, gps); keep both in step.",
+    "3400 m square (course runs 2.5 km east-west); heightmap 1.66 m per sample; ground 207.1 to 396.5 m.",
+    "Satellite is 8192 px (0.42 m/px); import at Max Size 8192, Terrain Size 3400.",
+    "checks/green_slopes.csv: greens over 3% plane tilt on holes 2, 4, 6, 18; review in the flyover before flattening.",
+    "HansenDam.GKD: Black on 3 (404) and 11 (340) sit behind the mapped tee start; 23 of 72 tees are card-placed on the hole line (checks/tee_colours.csv).",
+    "Hole 11 plays the right-hand green; the unused left green is fairway in course.svg. Hole 16 pond is a penalty area (no drop zone), water colour #669E7D.",
+    "backdrop/: 36 km far terrain (USGS 1/3 arc-second) with placement in backdrop/backdrop.json. surfaces/: 0.5 m bare-earth surface for greens, fairways and tees.",
+    "offsite_trees.csv: 1,958 trees outside the OB line for the neighbourhood backdrop; trees.csv has species and confidence columns.",
+    "map.osm is in plain git here (the moorpark repo kept it out because of LFS)."
+  ]
+}
